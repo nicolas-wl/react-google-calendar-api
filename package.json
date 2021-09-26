@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tslint --project . && tsc && rm *.test.js",
     "test": "jest",
-    "babel": "babel ./ApiCalendar.js -d build"
+    "babel": "babel ./src/ApiCalendar.js -d build"
   },
   "jest": {
     "transform": {
